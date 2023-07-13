@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forbes College</title>
+    <link rel="icon" href="project_imgs/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="project_imgs/logo.png"></a>
+        
+            <div class="nav-links" id="navLinks">
+                
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+
+        </nav>
+       <h1>Voice form the principal</h1> 
+    </section>
+
+    
+
+     <!-- -------------- Blog Page Content ---------------------- -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="project_imgs/principal.jpg">
+                <h2>Why choose Forbes?</h2>
+                <p>Choosing where to continue your education is a major decision and I believe that Forbes College will be a choice you will not regret, especially if you are ambitious and determined to succeed. As a result of our size, well equipped class room, kitchen, restaurant & computer lab, we are able to focus on the needs of each individual student and aim to nurture each student in order to ensure their journey at Forbes College is a successful and improves future prospects.</p>
+                <br>
+                <p>I am pleased that you are thinking about joining Forbes College for your nest step. Forbes College is a diverse and friendly learning community, where students progress well in their studies and we are frequently proud of their achievements. We are particularly proud of the progress our students make from their own individual starting points and the incredibly positive destinations their ultimately achieve, either in good Higher Education places or jobs with continuing training.</p>
+                <br>
+                <p>When you join us, you can be assured we will invest time in you. We will give you all the support and encouragement you need to achieve the success you deserve and to create the future you want for yourself. We'll treat you with respect, take your views seriously and encourage you to be creative, make new friends and contribute to the wider community.</p>
+                <br>
+                <p>Exciting times are ahead of us and I hope you too choose to be a part of our continuing success.</p>
+                <br>
+                <p>Hari Sharan Pathak <br>
+                   Principal</p>
+
+
+                
+            </div>
+           
+        </div>
+
+    </section> 
+
+
+   <!-- ---------------- Footer-------------------  -->   
+    <section class="footer">
+        <h4>About us</h4>
+        <p>The best guideline for your future</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/forbescollegechitwan"><img src="icons/facebook (1).png" alt=""></a>
+            <a href="https://www.linkedin.com/company/forbescollege?original_referer=https%3A%2F%2Fwww.google.com%2F"><img src="icons/linkedin.png"></a>
+        </div>
+        <p>Made By <img src="icons/" alt="">Bcs 6th Batch</p>
+     </section>
+
+    <!-- -------------javascript toggle menu------------------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+       
+        function ShowMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+        
+    </script>
+</body>
+</html>

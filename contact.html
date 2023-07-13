@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forbes College</title>
+    <link rel="icon" href="project_imgs/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="project_imgs/logo.png"></a>
+        
+            <div class="nav-links" id="navLinks">
+                
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+
+        </nav>
+       <h1>Contact Us</h1> 
+    </section>
+
+    <!-- ----------------- contact us content --------------------  -->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d441.57586407323345!2d84.43075951979532!3d27.69854168303759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3994fb49a5fb5741%3A0x72b0768dd53f3d4f!2sForbes%20College!5e0!3m2!1sen!2snp!4v1685720349770!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <span>
+                        <h5>Bharatpur-2, Kshetrapur, Jalma Hall Square</h5>
+                        <p>Chitwan, Nepal</p> 
+                        <p>44207</p>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <h5>(+977) 056-594300 / 594301</h5>
+                        <p>Available anytime</p> 
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <h5>info@forbescollege.edu.np</h5>
+                        <p>Mail us your query</p> 
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <div>
+                    <h5>Get In Touch</h5>
+                </div>
+                <form>
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="email" placeholder="Enter Email Address" required>
+                    <input type="text" placeholder="Enter Your Subject (intrested)" required>
+                    <textarea  rows="8" placeholder="Messages" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+   <!-- ---------------- Footer-------------------  -->   
+    <section class="footer">
+        <h4>About us</h4>
+        <p>The best guideline for your future</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/forbescollegechitwan"><img src="icons/facebook (1).png" alt=""></a>
+            <a href="https://www.linkedin.com/company/forbescollege?original_referer=https%3A%2F%2Fwww.google.com%2F"><img src="icons/linkedin.png"></a>
+        </div>
+        <p>Made By <img src="icons/" alt="">Bcs 6th Batch</p>
+     </section>
+
+    <!-- -------------javascript toggle menu------------------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+       
+        function ShowMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+        
+    </script>
+</body>
+</html>

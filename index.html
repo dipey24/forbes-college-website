@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forbes College</title>
+    <link rel="icon" href="project_imgs/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="project_imgs/logo.png"></a>
+        
+            <div class="nav-links" id="navLinks">
+                <!-- <a href="#" class="fa-bars"><img src="icons/hamburger.png " alt=""></a>
+                <a href="#" class="fa-bars"><img src="icons/close.png " alt=""></a>  -->
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenu()"></i>
+
+        </nav>
+        
+        <div class="text-box">
+            <h1>Forbes College</h1>
+            <p>A community of lifelong learners, responsible global citizens, and champions of our own success.</p>
+            <a href="" class="hero-btn">Visit us to know More</a>
+           
+
+        </div>
+    </section>
+
+
+    <!-- -----------campus----------------- -->
+
+
+    <!-- -------------- Facilities ---------------------- -->
+
+    <section class="facilities">
+        <h1>Our Collaborative Partners</h1>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="project_imgs/library.png">
+                <h3>Well equiped computer labs</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="project_imgs//housekeeping.jpeg">
+                <h3>Housekeeping lab</h3>
+            </div>
+            <div class="facilities-col">
+                <img src="project_imgs//cafeteria.png">
+                <h3>Mini-bar & Kitchen</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------ testimonials ----------------  -->
+    <section class="testimonials">
+        <h1>Voice of our students</h1>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="project_imgs/bipu.jpeg">
+                <div>
+                    <p>"Forbes college ha been a distinct advantage in boosting my aptitude.
+                        getting involved in avarious IT clubs has incouraged me to figure out numerous snags all around.
+                        i have figured out how to function in a group, enhance the accesible assets and build up a managerial disposition. I am certain it will help me seek an effective profession."</p>
+                    <h3>Bipu Ojha</h3>
+                    <p>BCS</p>
+                    
+                </div>
+            </div>
+            <div class="testimonials-col">
+                <img src="project_imgs/utsav.jpeg">
+                <div>
+                    <p>"I feel fortunate to be a part of the forbes family.<br>
+                        Getting exposure to various horizon of practical methodology has helpes me gain confidence and discover my passion towards the world of hospatility.
+                        forbes college really has been a game changer in may life. "</p>
+                    <h3>Utsav Adhikari</h3>
+                    <p>BHM</p>
+                </div>   
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!-- ---------------- Call To Action -------------------  -->
+
+    <section class="cta">
+        <h1>Enroll For Our Various Courses <br> Anywhere from the nation </h1>
+        <a href="contact.html" class="hero-btn">CONTACT US</a>
+    </section>
+
+     <!-- ---------------- Footer-------------------  -->   
+     <section class="footer">
+        <img src="project_imgs/logo 2.png"></a>
+        <h4>About us</h4>
+        <p>The best guideline for your future</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/forbescollegechitwan"><img src="icons/facebook (1).png" alt=""></a>
+            <a href="https://www.linkedin.com/company/forbescollege?original_referer=https%3A%2F%2Fwww.google.com%2F"><img src="icons/linkedin.png"></a>
+        </div>
+        <p>Made By <img src="icons/" alt="">Bcs 6th Batch</p>
+     </section>
+
+    <!-- -------------javascript toggle menu------------------ -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+       
+        function ShowMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+        
+    </script>
+</body>
+</html>
